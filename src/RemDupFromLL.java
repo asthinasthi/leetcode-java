@@ -2,6 +2,11 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
 public class RemDupFromLL {
 
 	@Test
@@ -17,17 +22,25 @@ public class RemDupFromLL {
 	}
 
     public ListNode deleteDuplicates(ListNode head) {
-        ListNode temp = head;
-        if(temp == null)return null;
-        while(temp.next !=null){
-        	if(temp.val == temp.next.val){
-        		temp.next = temp.next.next;
-        	}else{
-        		temp = temp.next;
-        	}
-        }
-    	
-    	return head;
+//        ListNode temp = head;
+//        if(temp == null)return null;
+//        while(temp.next !=null){
+//        	if(temp.val == temp.next.val){
+//        		temp.next = temp.next.next;
+//        	}else{
+//        		temp = temp.next;
+//        	}
+//        }
+//
+//    	return head;
+//
+//		HashMap<String, Integer> map1 = new HashMap<>();
+//		for(Map.Entry<String, Integer> e: map1.entrySet()){
+//			map1.getOrDefault()
+//		}
+//
+//		Collections.sort(new ArrayList<T>());
+		return null;
     }
     
 	 static void printLinkedList(ListNode head){

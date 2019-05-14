@@ -15,7 +15,7 @@ public class ReverseString {
 
 	@Test
 	public void test() {
-		String s = "Hello";
+		String s = "Hello Anirudh";
 		System.out.println(reverseString(s).toString());
 	}
 	
